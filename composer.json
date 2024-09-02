@@ -1,0 +1,30 @@
+{
+    "name": "mnapoli/cloudformation-helper",
+    "description": "Simple CloudFormation deployments",
+    "keywords": [],
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "CloudFormationHelper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CloudFormationHelper\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "mnapoli/hard-mode": "^0.3.0",
+        "phpstan/phpstan": "^1"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
